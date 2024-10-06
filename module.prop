@@ -1,6 +1,6 @@
-id=adblock
-name=adblock
+id=epn
+name=epn
 version=v1
 versionCode=1
-author=zulfikar
-description=block ads | su -c adblock
+author=Thanfees
+description=block all types of ads | su -c epn
