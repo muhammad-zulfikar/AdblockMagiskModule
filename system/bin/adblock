@@ -5,7 +5,8 @@ select pref in "${hosts[@]}"; do
     case $pref in
         "AdAway")
             echo "AdAway Host File"
-            curl -s https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt -o /etc/hosts
+            #curl -s https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt -o /etc/hosts
+            curl -s https://o0.pages.dev/Lite/hosts.txt -o /etc/hosts
 	    echo "Successfully updated"
             ;;
         "Disable")
